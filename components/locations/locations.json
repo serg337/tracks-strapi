@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_locations_locations",
+  "info": {
+    "name": "locations",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "timestamp": {
+      "type": "float"
+    },
+    "coords": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coords.coords"
+    }
+  }
+}

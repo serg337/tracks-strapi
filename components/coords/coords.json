@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "coords",
+    "icon": "map-marked-alt"
+  },
+  "options": {},
+  "attributes": {
+    "speed": {
+      "type": "float"
+    },
+    "heading": {
+      "type": "float"
+    },
+    "accuracy": {
+      "type": "float"
+    },
+    "altitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_coords_coords"
+}

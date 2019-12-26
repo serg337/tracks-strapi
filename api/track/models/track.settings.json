@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "tracks",
+  "info": {
+    "name": "track"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "userId": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "tracks"
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "locations.locations"
+    }
+  }
+}
