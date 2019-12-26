@@ -1,6 +1,6 @@
 {
   "info": {
-    "name": "coords",
+    "name": "Coords",
     "icon": "map-marked-alt"
   },
   "options": {},
@@ -25,5 +25,5 @@
     }
   },
   "connection": "default",
-  "collectionName": "components_coords_coords"
+  "collectionName": "components_locations_coords"
 }

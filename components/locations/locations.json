@@ -13,7 +13,7 @@
     "coords": {
       "type": "component",
       "repeatable": false,
-      "component": "coords.coords"
+      "component": "locations.coords"
     }
   }
 }
