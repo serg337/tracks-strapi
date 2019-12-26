@@ -5,7 +5,7 @@
       "path": "/tracks",
       "handler": "track.find",
       "config": {
-        "policies": ["global.isAuthenticated"]
+        "policies": []
       }
     },
     {
@@ -13,7 +13,7 @@
       "path": "/tracks/count",
       "handler": "track.count",
       "config": {
-        "policies": ["global.isAuthenticated"]
+        "policies": []
       }
     },
     {
@@ -21,7 +21,7 @@
       "path": "/tracks/:id",
       "handler": "track.findOne",
       "config": {
-        "policies": ["global.isAuthenticated"]
+        "policies": []
       }
     },
     {
@@ -37,7 +37,7 @@
       "path": "/tracks/:id",
       "handler": "track.update",
       "config": {
-        "policies": ["global.isAuthenticated"]
+        "policies": []
       }
     },
     {
@@ -45,7 +45,7 @@
       "path": "/tracks/:id",
       "handler": "track.delete",
       "config": {
-        "policies": ["global.isAuthenticated"]
+        "policies": []
       }
     }
   ]
