@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/tracks",
-      "handler": "track.find",
+      "handler": "Track.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/tracks/count",
-      "handler": "track.count",
+      "handler": "Track.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/tracks/:id",
-      "handler": "track.findOne",
+      "handler": "Track.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/tracks",
-      "handler": "track.create",
+      "handler": "Track.create",
       "config": {
         "policies": ["global.isAuthenticated"]
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/tracks/:id",
-      "handler": "track.update",
+      "handler": "Track.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/tracks/:id",
-      "handler": "track.delete",
+      "handler": "Track.delete",
       "config": {
         "policies": []
       }
